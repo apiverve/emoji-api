@@ -1,0 +1,77 @@
+openapi: 3.0.4
+info:
+  title: Emoji Lookup
+  description: Emoji is a simple tool for getting emoji data. It returns the emoji name, category, and more.
+  termsOfService: https://apiverve.com/terms/
+  contact:
+    name: APIVerve Support
+    email: hello@apiverve.com
+    url: https://apiverve.com/contact
+  version: 1.0.9
+externalDocs:
+  description: Learn more about APIVerve
+  url: https://docs.apiverve.com?utm_source=openapi
+servers:
+- url: https://api.apiverve.com/
+paths:
+  /v1/emoji:
+    get:
+      summary: Lookup Emoji
+      description: Emoji is a simple tool for getting emoji data. It returns the emoji name, category, and more.
+      operationId: emoji
+      parameters:
+      - name: emoji
+        in: query
+        schema:
+          type: string
+        required: true
+        description: "The emoji for which you want to get the text representation (e.g., \U0001F973)"
+        example: "\U0001F973"
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: status
+                  error:
+                    type: string
+                    description: error
+                  data:
+                    type: string
+                    description: data
+              example:
+                status: ok
+                error: 
+                data:
+                  count: 1
+                  emojisFound:
+                  - emoji: "\U0001F973"
+                    description: partying face
+                    category: Smileys & Emotion
+                    aliases:
+                    - partying_face
+                    tags:
+                    - celebration
+                    - birthday
+                    unicode_version: '11.0'
+                    ios_version: '12.1'
+                    codePoint: 1f973
+        '401':
+          description: Your request was not authorized, or your API Key was invalid
+        '404':
+          description: Requested resource was not found
+        '500':
+          description: A server error has occured, try again later
+components:
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: x-api-key
+      in: header
+security:
+- api_key: []
