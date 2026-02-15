@@ -1,1 +1,3 @@
-from .apiClient import EmojiAPIClient
+from .apiClient import EmojiAPIClient, EmojiAPIClientError
+
+__all__ = ['EmojiAPIClient', 'EmojiAPIClientError']
