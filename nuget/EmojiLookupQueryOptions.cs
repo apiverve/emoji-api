@@ -12,7 +12,6 @@ namespace APIVerve.API.EmojiLookup
     {
         /// <summary>
         /// The emoji for which you want to get the text representation (e.g., 🥳)
-        /// Example: 🥳
         /// </summary>
         [JsonProperty("emoji")]
         public string Emoji { get; set; }
