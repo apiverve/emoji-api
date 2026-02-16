@@ -233,8 +233,9 @@ from apiverve_emojilookup.apiClient import EmojiAPIClient
 
 api = EmojiAPIClient("[YOUR_API_KEY]")
 
+query = { "emoji": "🥳" }
+
 try:
-    query = { "emoji": "🥳" }
     result = api.execute(query)
     print(result)
 finally:
