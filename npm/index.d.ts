@@ -4,28 +4,40 @@ declare module '@apiverve/emoji' {
     secure?: boolean;
   }
 
+  /**
+   * Describes fields the current plan does not unlock. Locked fields arrive as null
+   * in `data`; `locked_fields` names them, using dot paths for nested fields.
+   * Absent when the plan unlocks everything.
+   */
+  export interface PremiumInfo {
+    message: string;
+    upgrade_url: string;
+    locked_fields: string[];
+  }
+
   export interface emojiResponse {
     status: string;
     error: string | null;
     data: EmojiLookupData;
     code?: number;
+    premium?: PremiumInfo;
   }
 
 
   interface EmojiLookupData {
-      count:       number;
+      count:       number | null;
       emojisFound: EmojisFound[];
   }
   
   interface EmojisFound {
-      emoji:          string;
-      description:    string;
-      category:       string;
-      aliases:        string[];
-      tags:           string[];
-      unicodeVersion: string;
-      iosVersion:     string;
-      codePoint:      string;
+      emoji:          null | string;
+      description:    null | string;
+      category:       null | string;
+      aliases:        (null | string)[];
+      tags:           (null | string)[];
+      unicodeVersion: null | string;
+      iosVersion:     null | string;
+      codePoint:      null | string;
   }
 
   export default class emojiWrapper {
