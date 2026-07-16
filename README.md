@@ -191,11 +191,45 @@ x-api-key: YOUR_API_KEY_HERE
 Get your API key: [https://apiverve.com](https://apiverve.com)
 
 ### Response Format
-All responses are JSON with this structure:
+
+Every APIVerve endpoint returns the same envelope — check `status`, then read `data`:
+
 ```json
 {
   "status": "ok",
+  "error": null,
   "data": { ... }
+}
+```
+
+### Example Response
+
+A real response from the Emoji Lookup API:
+
+```json
+{
+  "status": "ok",
+  "error": null,
+  "data": {
+    "count": 1,
+    "emojisFound": [
+      {
+        "emoji": "🥳",
+        "description": "partying face",
+        "category": "Smileys & Emotion",
+        "aliases": [
+          "partying_face"
+        ],
+        "tags": [
+          "celebration",
+          "birthday"
+        ],
+        "unicode_version": "11.0",
+        "ios_version": "12.1",
+        "codePoint": "1f973"
+      }
+    ]
+  }
 }
 ```
 
