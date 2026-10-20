@@ -1,13 +1,13 @@
-# [Emoji Lookup API](https://apiverve.com/marketplace/emoji?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+# [Emoji Lookup API](https://apiverve.com/marketplace/emoji?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Emoji is a simple tool for getting emoji data. It returns the emoji name, category, and more.
+Emoji Lookup searches emoji characters, tags, or categories to return descriptive names and classifications. Query by raw symbol, keyword tag, or category to inspect matching emoji glyphs, text descriptions, and categories.
 
 The Emoji Lookup API provides a simple, reliable way to integrate emoji lookup functionality into your applications. Built for developers who need production-ready emoji lookup capabilities without the complexity of building from scratch.
 
-**[View API Details →](https://apiverve.com/marketplace/emoji?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)**
+**[View API Details →](https://apiverve.com/marketplace/emoji?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/emoji?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/emoji?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 [![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
 [![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
 
@@ -161,7 +161,7 @@ go get github.com/apiverve/emoji-api/go
 
 ## Documentation
 
-- 🏠 **API Home:** [Emoji Lookup API](https://apiverve.com/marketplace/emoji?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home:** [Emoji Lookup API](https://apiverve.com/marketplace/emoji?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 📚 **API Reference:** [docs.apiverve.com/ref/emoji](https://docs.apiverve.com/ref/emoji)
 - 📖 **OpenAPI Spec:** [openapi.yaml](./openapi.yaml)
 - 💡 **Examples:** [examples/](./examples/)
@@ -237,7 +237,7 @@ A real response from the Emoji Lookup API:
 
 ## Support & Community
 
-- 🏠 **API Home**: [Emoji Lookup API](https://apiverve.com/marketplace/emoji?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home**: [Emoji Lookup API](https://apiverve.com/marketplace/emoji?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
 - 🐛 **Issues**: [GitHub Issues](../../issues)
 - 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
