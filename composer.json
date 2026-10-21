@@ -1,7 +1,7 @@
 {
     "name": "apiverve/emoji",
-    "description": "Emoji is a simple tool for getting emoji data. It returns the emoji name, category, and more.",
-    "version": "1.2.0",
+    "description": "Emoji Lookup searches emoji characters, tags, or categories to return descriptive names and classifications. Query by raw symbol, keyword tag, or category to inspect matching emoji glyphs, text descriptions, and categories.",
+    "version": "1.2.2",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,13 +15,13 @@
         "api",
         "apiverve",
         "emoji",
-        "emoji",
-        "emoji api",
-        "emoji tool",
-        "emoji software",
-        "emoji service"
+        "emoji lookup api",
+        "emoji lookup",
+        "search emoji by tag",
+        "find emoji by category",
+        "convert emoji to text"
     ],
-    "homepage": "https://apiverve.com/marketplace/emoji?utm_source=php&utm_medium=homepage",
+    "homepage": "https://apiverve.com/marketplace/emoji?utm_source=php&utm_medium=referral&utm_content=homepage",
     "support": {
         "email": "hello@apiverve.com",
         "docs": "https://docs.apiverve.com/ref/emoji",
