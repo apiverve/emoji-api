@@ -1,6 +1,6 @@
 # Emoji Lookup API - PHP Package
 
-Emoji is a simple tool for getting emoji data. It returns the emoji name, category, and more.
+Emoji Lookup searches emoji characters, tags, or categories to return descriptive names and classifications. Query by raw symbol, keyword tag, or category to inspect matching emoji glyphs, text descriptions, and categories.
 
 ## Installation
 
@@ -98,11 +98,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/emoji?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/emoji?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/emoji?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/emoji?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/emoji?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/emoji?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License
