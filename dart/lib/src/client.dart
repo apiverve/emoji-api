@@ -46,7 +46,7 @@ final _formatPatterns = {
 
 /// Emoji Lookup API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/emoji?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/emoji?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [emoji] (required) - The emoji for which you want to get the text representation (e.g., 🥳)

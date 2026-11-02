@@ -1,11 +1,11 @@
 # Emoji Lookup API - Dart/Flutter Client
 
-Emoji is a simple tool for getting emoji data. It returns the emoji name, category, and more.
+Emoji Lookup searches emoji characters, tags, or categories to return descriptive names and classifications. Query by raw symbol, keyword tag, or category to inspect matching emoji glyphs, text descriptions, and categories.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_emoji.svg)](https://pub.dev/packages/apiverve_emoji)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the Dart/Flutter client for the [Emoji Lookup API](https://apiverve.com/marketplace/emoji?utm_source=dart&utm_medium=readme).
+This is the Dart/Flutter client for the [Emoji Lookup API](https://apiverve.com/marketplace/emoji?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_emoji: ^1.1.14
+  apiverve_emoji: ^1.2.4
 ```
 
 Then run:
@@ -76,12 +76,12 @@ void main() async {
 
 ## API Reference
 
-- **API Home:** [Emoji Lookup API](https://apiverve.com/marketplace/emoji?utm_source=dart&utm_medium=readme)
-- **Documentation:** [docs.apiverve.com/ref/emoji](https://docs.apiverve.com/ref/emoji?utm_source=dart&utm_medium=readme)
+- **API Home:** [Emoji Lookup API](https://apiverve.com/marketplace/emoji?utm_source=dart&utm_medium=referral&utm_content=readme)
+- **Documentation:** [docs.apiverve.com/ref/emoji](https://docs.apiverve.com/ref/emoji?utm_source=dart&utm_medium=referral&utm_content=readme)
 
 ## Authentication
 
-All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=readme).
+All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## License
 
@@ -89,4 +89,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=readme)
+Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme)
