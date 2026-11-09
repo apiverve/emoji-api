@@ -1,6 +1,6 @@
 name: apiverve_emoji
 description: "Emoji Lookup searches emoji characters, tags, or categories to return descriptive names and classifications. Query by raw symbol, keyword tag, or category to inspect matching emoji glyphs, text descriptions, and categories."
-version: 1.2.4
+version: 1.2.5
 homepage: https://apiverve.com/marketplace/emoji?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/emoji-api/tree/main/dart
 
